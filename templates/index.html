@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Puppy</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #dff3ff, #8ed1ff);
+            color: #12344d;
+        }
+
+        .card {
+            width: min(90%, 650px);
+            padding: 40px;
+            text-align: center;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 15px 40px rgba(0, 70, 120, 0.20);
+        }
+
+        .puppy {
+            font-size: 120px;
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 42px;
+            color: #0878c9;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .badge {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 18px;
+            border-radius: 999px;
+            background: #0878c9;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <div class="puppy">🐶</div>
+        <h1>Blue Puppy</h1>
+        <p>
+            Hello from Flask! This application is ready to become
+            the starting point for a CI/CD and Kubernetes project.
+        </p>
+        <span class="badge">Flask is running</span>
+    </main>
+</body>
+</html>
