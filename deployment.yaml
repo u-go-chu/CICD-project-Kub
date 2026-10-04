@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: blue-puppy
-          image: uggoiffi/blue-puppy-repo
+          image: uggoiffi/blue-puppy-repo:latest
           ports:
             - containerPort: 5000
