@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: blue-puppy-service
+  name: blue-puppy
 spec:
   type: NodePort
   selector:
