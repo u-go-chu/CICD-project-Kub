@@ -20,5 +20,6 @@ spec:
       containers:
         - name: blue-puppy
           image: uggoiffi/blue-puppy-repo:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
