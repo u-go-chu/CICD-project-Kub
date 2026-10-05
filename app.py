@@ -9,8 +9,7 @@ def get_conn():
         host=os.environ.get("DB_HOST", "db"),
         dbname=os.environ.get("DB_NAME", "appdb"),
         user=os.environ.get("DB_USER", "appuser"),
-        password=os.environ.get("DB_PASSWORD", "apppass"),
-    )
+        password=os.environ["DB_PASSWORD"],    )
 
 def init_db():
     for _ in range(10):
